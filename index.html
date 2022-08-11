@@ -18,12 +18,12 @@
 </head>
 
 <body>
-  <section id="title">
+  <section class="colored-section" id="title">
 
     <div class="container-fluid">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container" style="padding-left:0px; margin-left: 0px;">
+        <div class="container tindog-topleft">
           <a class="navbar-brand" href="#">tindog</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,13 +31,13 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ms-auto">
               <li class=" nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Download</a>
+                <a class="nav-link active" aria-current="page" href="#cta">Download</a>
               </li>
             </ul>
           </div>
@@ -47,9 +47,9 @@
       <!-- Title -->
       <div class="row">
         <div class="col-sm-12 col-md-5">
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg download-button" style="margin-right: 10px;"><i class="fa-brands fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
+          <h1 class="title-header white-text">Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="download-button btn btn-dark btn-lg "><i class="fa-brands fa-apple"></i> Download</button>
+          <button type="button" class="download-button btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
 
         <div class="col-sm-12 col-md-6">
@@ -62,21 +62,21 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="white-section" id="features">
     <div class="row">
 
       <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-circle-check fa-4x"></i>
+        <i class="feature-icon icon fa-solid fa-circle-check fa-4x"></i>
         <h3>Easy to use.</h3>
         <p>So easy to use, even your dog could do it.</p>
       </div>
       <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-bullseye fa-4x"></i>
+        <i class="feature-icon icon fa-solid fa-bullseye fa-4x"></i>
         <h3>Elite Clientele</h3>
         <p>We have all the dogs, the greatest dogs.</p>
       </div>
       <div class="feature-box col-lg-4">
-        <i class="icon fa-solid fa-heart fa-4x"></i>
+        <i class="feature-icon icon fa-solid fa-heart fa-4x"></i>
         <h3>Guaranteed to work.</h3>
         <p>Find the love of your dog's life or your money back.</p>
       </div>
@@ -86,12 +86,12 @@
 
   <!-- Testimonials -->
 
-  <section id="testimonials">
+  <section class="colored-section white-text" id="testimonials">
 
     <div id="testimonials-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000" data-bs-pause="hover">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <h2 class="testimonial-text">I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
           <img class="testimonialsimg" src="images/dog-img.jpg" alt="dog-profile">
           <em>Pebbles, New York</em>
         </div>
@@ -110,30 +110,27 @@
     </div>
 
 
-
-
-
   </section>
 
 
   <!-- Press -->
 
   <section id="press">
-    <img class="class-icon" src="images/TechCrunch.png" alt="tc-logo">
-    <img class="class-icon" src="images/tnw.png" alt="tnw-logo">
-    <img class="class-icon" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="class-icon" src="images/mashable.png" alt="mashable-logo">
+    <img class="press-icon" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-icon" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-icon" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-icon" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
 
   <!-- Pricing -->
 
-  <section id="pricing" style="padding: 50px;">
+  <section class="white-section" id="pricing">
 
-    <h3 class="text-center">A Plan for Every Dog's Needs</h3>
+    <h3 class="text-center pricing-heading">A Plan for Every Dog's Needs</h3>
   </br>
-    <p style="color: #ef8172;">Simple and affordable price plans for your and your dog.</p>
+    <p class="smaller-heading">Simple and affordable price plans for your and your dog.</p>
 
 
     <div class="row">
@@ -188,18 +185,17 @@
         </div>
       </div>
    </div>
-
   </section>
 
 
   <!-- Call to Action -->
 
-  <section id="cta">
+  <section class="colored-section" id="cta">
 
 
-    <h3 style=" color: white; line-height: 1.5; padding-bottom: 30px;">Find the True Love of Your Dog's Life Today.</h3>
-    <button type="button" class="btn btn-dark btn-lg" style="margin-top:10px;"><i class="fa-brands fa-apple"></i> Download</button>
-    <button type="button" class="btn btn-light btn-lg" style="margin-top:10px;"><i class="fa-brands fa-google-play"></i> Download</button>
+    <h3 class="cta-heading white-text">Find the True Love of Your Dog's Life Today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fa-brands fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-light btn-lg download-button"><i class="fa-brands fa-google-play"></i> Download</button>
 
 
 
@@ -208,9 +204,13 @@
 
   <!-- Footer -->
 
-  <footer id="footer">
-    <p class="text-center" style="padding-top:120px;"><i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-solid fa-envelope"></i></p>
-    <p class="text-center" style=" font-weight:400;">© Copyright TinDog</p>
+  <footer class="white-section" id="footer">
+    <p class="text-center">
+    <i class="footer-icon fa-brands fa-twitter"></i>
+    <i class="footer-icon fa-brands fa-facebook-f"></i>
+    <i class="footer-icon fa-brands fa-instagram"></i>
+    <i class="footer-icon fa-solid fa-envelope"></i></p>
+    <p class="text-center">© Copyright TinDog</p>
 
   </footer>
 
